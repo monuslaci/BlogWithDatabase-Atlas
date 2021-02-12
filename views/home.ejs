@@ -1,0 +1,22 @@
+<%- include("partials/header") %> 
+
+<div class=container-fluid>
+    <% for( let i = 0; i < postArticle.length; i++ ) { %>
+    <div class="box">
+      <h2> <%=postArticle[i].title %>  </h2>
+      <p><%=postArticle[i].content.substring(0,130)+"..."  %>     <a href="/posts/<%=postArticle[i]._id%>">Read More</a> </p>
+
+
+
+
+      </div>
+  <% } %>
+
+</div>
+
+
+
+
+<%- include("partials/footer") %> 
+
+ 

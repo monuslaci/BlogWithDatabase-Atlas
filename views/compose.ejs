@@ -1,0 +1,22 @@
+<%- include("partials/header") %>
+
+
+<div class=container-fluid>
+
+    <div class="compose-box">
+        <h1>Compose</h1>
+        <form action="/compose" method="post">
+            <label>Title</label>
+            <textarea class="form-control" name="articleTitle" autocomplete="off" rows="1" cols="30"
+                placeholder="Title"></textarea>
+            <label>Post</label>
+            <textarea class="form-control" name="articleContent" autocomplete="off" rows="5" cols="30"
+                placeholder="Type your post"></textarea>
+            <button class="btn btn-primary" type="submit" name="articleSubmit">Add article</button>
+    </div>
+    </form>
+</div>
+
+
+
+<%- include("partials/footer") %>

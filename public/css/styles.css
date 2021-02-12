@@ -1,0 +1,89 @@
+html {
+  min-height: 100%;
+  position: relative;
+}
+
+.navbar {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    border: 0;
+    border-radius: 0;
+    margin-bottom: 0;
+    font-size: 12px;
+    letter-spacing: 5px;
+}
+
+.navbar-brand {
+  margin-right: 40px;
+  padding-left: 6rem;
+}
+
+
+.container-fluid {
+  padding-top: 50px;
+  padding-bottom: 70px;
+  padding-left: 7rem;
+
+  
+}
+
+.box{
+  margin-left: auto;
+  margin-right: auto;
+  width: 40%;
+  background-color: #ebebeb;
+  /* box-shadow:20px 20px 50px grey;   */
+  margin-bottom: 2rem;
+}
+
+.compose-box{
+  margin-left: auto;
+  margin-right: auto;
+  width: 40%;
+}
+
+.post-box{
+  margin-left: auto;
+  margin-right: auto;
+  width: 40%;
+
+}
+
+
+
+.form-control{
+  margin-top: 5px;
+  margin-bottom: 10px;
+
+
+}
+
+button[type="submit"] {
+  display: flex;
+  margin-top: 10px;
+}
+
+
+::placeholder {
+  color: grey;
+  opacity: 1;
+}
+
+
+h1{
+  color:black;
+  margin-bottom: 25px;
+}
+
+label{
+  display: flex;
+  margin-top: 20px;
+}
+
+
+
+#main-footer{
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+}
